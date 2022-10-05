@@ -8,3 +8,82 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+nav {
+    background-color: #540B51;
+    margin-bottom:0px;
+}
+.images {
+    width: 90%;
+}
+#signupemail {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-left:10px;
+    border: 1px solid black;
+}
+.buttonsignupemail {
+    background-color:white;
+    color:#540B51;
+    height:50px;
+    font-size:25px;
+}
+#signupgoogle {
+    display:flex;
+    justify-content:center;
+    margin-left:10px;
+    padding:0px;
+    box-sizing:border-box;
+    border: 1px solid black;
+    color: blue;
+}
+.buttonsignupgoogle {
+    display:flex;
+    background-color:blue;
+    color:white;
+    text-align:center;
+}
+.googlelogo {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    background-color:white;
+    height:30px;
+}
+.backgroundcolor1 {
+    background-color:#540B51;
+    width:90%;
+}
+h1 {
+    color:white;
+    text-align:center;
+}
+.slackisfree {
+    text-align:center;
+}
+.background2 {
+    background-color:#F3EAE2;
+    margin-top:0px;
+    width:90%;
+}
+.trusted {
+    font-size:30px;
+    text-align:center;
+    margin-top:0px;
+    color:black;
+}
+#logos{
+    display:flex;
+    flex:wrap;
+    width:auto;
+    align-items:center;
+}
+.logoslogos {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    height:0,2px;
+}
